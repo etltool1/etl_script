@@ -1,0 +1,7 @@
+INSERT INTO
+  12.test_table(1, 2)
+SELECT
+  1,
+  2
+FROM
+  12.test_table

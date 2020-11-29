@@ -1,0 +1,6 @@
+insert into
+  ss(aa)
+select
+  aa
+from
+  cc
