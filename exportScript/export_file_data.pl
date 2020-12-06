@@ -34,14 +34,14 @@ sub getSQL{
 #============================================================
 my $SQL=<<EOF_SQL;
 --瀵煎嚭鏁版嵁
-SELECT * FROM FTP_SCRIPT_INFO
+select * from ftp_script_info
 EOF_SQL
 return \$SQL;
 }
 
 #*******************  Main Program *********************
 #01. setup job frequence
-BASE::setJobFrequency('w',''); #D,M,Q,Y,W,E
+BASE::setJobFrequency('d',''); #D,M,Q,Y,W,E
 
 #02. set data file format info
 BASE::setExportFileAttrib(
