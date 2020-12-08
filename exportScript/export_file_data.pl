@@ -9,7 +9,7 @@ DataFileFormat=/data/export/123_format
 #SchemaName名
 SchemaName=etl_tool
 #表名
-TableName=ftp_script_info
+TableName=ftp_script_info9
 
 #执行数据库加载脚本
 mysql -u${root} -p${Password} -e "select * from ${SchemaName}.${TableName} into outfile '${DataFile}' Fields TERMINATED by '${DataDelimiter}'"
