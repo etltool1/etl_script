@@ -1,7 +1,7 @@
 User=root
 Password=123456
 #数据文件绝对路径
-DataFile=/data/export/EXPORT_FILE_NAME
+DataFile=/data/export/123
 #数据文件分隔符
 DataDelimiter=/
 #编码格式
