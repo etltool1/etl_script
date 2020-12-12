@@ -1,4 +1,7 @@
-INSERT INTO UTA_CHN_RPSDATA.DTL_ORG
-(ORG_ID ,ORG_NAME)
-SELECT ORG_ID ,ORG_NAME
-FROM UTA_CHN_PVIEW.T04_ORG
+insert into chn_rpsdata.dtl_org
+(org_id
+,org_name)
+select
+org_id
+,org_name
+from chn_pdmdata.t04_org
