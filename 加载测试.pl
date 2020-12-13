@@ -1,7 +1,7 @@
 User=root
 Password=123456
 #数据文件绝对路径
-DataFile=1/1
+DataFile=12/12
 #数据文件分隔符
 DataDelimiter=1
 #编码格式
