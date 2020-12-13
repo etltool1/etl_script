@@ -3,13 +3,13 @@ Password=123456
 #数据文件绝对路径
 DataFile=12/12
 #数据文件分隔符
-DataDelimiter=1
+DataDelimiter=12
 #编码格式
 DataFileFormat=data_format
 #SchemaName名
 SchemaName=etl_tool
 #表名
-TableName=1
+TableName=12
 
 
 #执行数据库加载脚本
