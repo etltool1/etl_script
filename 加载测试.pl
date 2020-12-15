@@ -1,15 +1,15 @@
 User=root
 Password=123456
 #数据文件绝对路径
-DataFile=/data/export/123
+DataFile=12/12
 #数据文件分隔符
-DataDelimiter=/
+DataDelimiter=12
 #编码格式
 DataFileFormat=data_format
 #SchemaName名
 SchemaName=etl_tool
 #表名
-TableName=ftp_script_info
+TableName=12
 
 
 #执行数据库加载脚本
