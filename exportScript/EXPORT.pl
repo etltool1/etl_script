@@ -34,7 +34,7 @@ sub getSQL{
 #============================================================
 my $SQL=<<EOF_SQL;
 --瀵煎嚭鏁版嵁
-select * from table_300
+select * from table_300;
 EOF_SQL
 return \$SQL;
 }
